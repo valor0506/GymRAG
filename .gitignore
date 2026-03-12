@@ -1,7 +1,33 @@
+# Environment
 .env
-vectorstore/
+
+# Virtual environment
 venv/
+
+# ChromaDB vector store (local data)
+vectorstore/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+
+# Byte compiled
+*.py[cod]
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
